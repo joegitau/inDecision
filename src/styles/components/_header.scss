@@ -1,0 +1,18 @@
+.header {
+  background: $main-bg;
+  color: #fff;
+  margin-bottom: $xl-size;
+  padding: $s-size 0;
+
+  h1 {
+    font-size: $xl-size;
+    color: #fff;
+    font-weight: 700;
+    margin: 0.3rem 0;
+  }
+
+  h3 {
+    font-size: $m-size;
+    font-weight: 400;
+  }
+}

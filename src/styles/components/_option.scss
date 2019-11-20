@@ -1,0 +1,9 @@
+.option {
+  display: flex;
+  background: $neutral-color;
+  justify-content: space-between;
+  color: lighten($primary-color, 10%);
+  padding: 0 30px;
+  font-size: 1.6rem;
+  border-bottom: 1px dotted lighten($primary-color, 15%);
+}
