@@ -23,6 +23,7 @@
     "normalize.css": "^8.0.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-modal": "^3.11.1",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "validator": "^12.0.0",
