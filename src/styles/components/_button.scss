@@ -6,7 +6,8 @@
   font-size: $m-size;
   color: #fff;
   border: none;
-  border-radius: 0.325rem;
+  border-radius: 0.625rem;
+  outline: none;
 }
 
 .main-btn:disabled {
@@ -16,10 +17,11 @@
 .button {
   background: lighten($alt-bg, 10%);
   border: none;
-  border-radius: 0 0.325rem 0.325rem 0;
+  border-radius: 0 0.625rem 0.625rem 0;
   color: #fff;
   padding: $s-size;
   font-size: $m-size;
+  outline: none;
 }
 
 .button--plain {
