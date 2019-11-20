@@ -23,7 +23,12 @@ export default class AddOption extends Component {
           <p className="add-option-errors">{this.state.error}</p>
         )}
         <form onSubmit={this.handleAddOption} className="add-option">
-          <input name="options" type="text" className="add-option__input" />
+          <input
+            name="options"
+            type="text"
+            className="add-option__input"
+            placeholder="add some options"
+          />
           <input className="button" type="submit" value="Add Option"></input>
         </form>
       </div>
